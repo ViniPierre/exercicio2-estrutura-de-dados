@@ -1,13 +1,10 @@
 public class No {
 
-	String nome;
-    int datavalidade;
-    int estoque;
-	No prox;
+	Produto produto;
+	No dir, esq;
 	
-	public No(String nome, int datavalidade, int estoque) {
-		this.nome = nome;
-		this.datavalidade = datavalidade;
-        this.estoque = estoque;
+	public No(Produto produto) {
+		this.produto = produto;
 	}
+
 }
